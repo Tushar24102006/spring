@@ -5,10 +5,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /*
-Spring @Configuration annotation is part of the spring core framework.
-Spring Configuration annotation indicates that the class has @Bean definition
-methods. So Spring container can process the class and generate Spring Beans
-to be used in the application.
+@Configuration is an annotation in the Spring Core Framework used to mark a class as
+a source of bean definitions.It indicates that the class contains one or more @Bean
+methods, and the Spring container processes these methods to create and manage Spring Beans.
  */
 @Configuration
 public class ProjectConfig {
