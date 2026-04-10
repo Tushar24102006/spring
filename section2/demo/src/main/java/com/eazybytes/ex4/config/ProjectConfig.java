@@ -17,13 +17,11 @@ public class ProjectConfig {
         return vehicle;
     }
 
-    /*@Bean
     Person person() {
         Person person = new Person();
         person.setName("Lucy");
         person.setVehicle(vehicle());
-        return person;
-    }*/
+        retur
 
     @Bean
     Person person(Vehicle vehicle) {
