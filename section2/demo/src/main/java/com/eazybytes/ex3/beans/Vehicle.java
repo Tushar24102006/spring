@@ -33,14 +33,5 @@ public class Vehicle implements InitializingBean, DisposableBean {
         System.out.println("Destroying Vehicle Bean");
     }
 
-//    @PostConstruct
-//    public void initialize() {
-//        this.name = "Audi";
-//    }
-
-//    @PreDestroy
-//    public void destroy() {
-//        System.out.println("Destroying Vehicle Bean");
-//    }
 
 }
